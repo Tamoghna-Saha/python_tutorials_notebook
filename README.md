@@ -14,8 +14,8 @@ __Beginner__
 |_Variables and object
 |_Standard libraries and Importing modules
 |_String, String Operation and String formatting
-|_User Input
 |_Useful pythonic functions (string: join, replace; numeric: max, sum, abs)
+|_User Input
 |_User Defined Function
 ```
 
@@ -23,17 +23,18 @@ __Intermediate Part 1__
 ```
 |_More Data Types
   |_List, Tuple, Set, Dictionary and its operations
+  |_List slicing
+  |_List and dictionary comprehension
 |_Conditional statements, range, loops
 |_File I/O
-|_Exception Handling, finally
 ```
 
 __Intermediate Part 2:__
 ```
-|_List slicing
-|_List and dictionary comprehension
+|_Class, Inheritance
+|_Exception Handling, finally
 |_Lambda
-|_Map & Filter
+|_First-class Function - Map & Filter
 |_Iterators, generators
 |_Useful pythonic functions for iterables (any, enumerate)
 ```
