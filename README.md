@@ -1,5 +1,7 @@
 # Python Tutorials Notebook
 
+![](Python/Photos/python_tutorials_notebook.jpg)
+
 This repository contains python :snake: notebooks :notebook: for education and data science purposes.
 
 # Contents
@@ -16,7 +18,7 @@ __NOTE__: Over the course of time, I will keep on adding more contents in this r
 * Numerical and Boolean Operations
 * Datatypes and Type Conversion
 * Variables and object
-* Standard libraries and Importing modules
+* Importing modules
 * String, String Operation and String formatting
 * Useful pythonic functions (_string_: `join`, `replace`; _numeric_: `max`, `sum`, `abs`)
 * User Input
@@ -36,7 +38,7 @@ __Part 1__
 __Part 2__
 
 * Class, Inheritance
-* Exception Handling, finally
+* Exception Handling
 * Lambda
 * First-class Function - Map & Filter
 * Iterators, generators
