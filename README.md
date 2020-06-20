@@ -6,13 +6,13 @@ This repository contains python :snake: notebooks :notebook: for education and d
 
 # Contents
 
-In this series, I have covered the conceptual understanding of Python by dividing it into 3 stages, the loop holes that you need to watch out, and assignments to get your hands dirty.
-
-The contents covered in each of these Python Notebooks are as follows:
-
 __NOTE__: Over the course of time, I will keep on adding more contents in this repo.
 
-## Beginner
+## Python
+
+I will be covering the conceptual understanding of Python by dividing it into 3 stages. The contents are as follows:
+
+### Beginner
 
 * What is Python, Why do we need it, Applications
 * Numerical and Boolean Operations
@@ -24,37 +24,58 @@ __NOTE__: Over the course of time, I will keep on adding more contents in this r
 * User Input
 * User Defined Function
 
-## Intermediate
+### Intermediate
 
 __Part 1__
 
 * Data Structures
   * List, Tuple, Set, Dictionary and its operations
   * List slicing
-  * List and dictionary comprehension
+  * List, set and dictionary comprehension
 * Conditional statements, range, loops
-* File I/O
+* Useful pythonic functions for iterables (`any`, `all`, `enumerate`)
 
 __Part 2__
 
-* Class, Inheritance
+* File I/O
 * Exception Handling
 * Lambda
-* First-class Function - Map & Filter
-* Iterators, generators
-* Useful pythonic functions for iterables (any, enumerate)
+* First-class Function - Map, Filter, Reduce
 
+### Advanced
 
-## Advanced
+__Part 1__
+
+* Class
+* Iterator and Iterables
+* Generator
+* Decorator
+
+__Part 2__
+
+* Multithreading & Multiprocessing
+* Unit Test Cases
+
+## Libraries for Data Science 101
 
 * Pandas
 * NumPy
 
 # Installation
 
-All these installations are performed in __Ubuntu 18.04__, and I am not providing the same for Windows because, frnakly, coding and development should not be done :thumbsdown: in Windows.
+All these installations are performed in __Linux :penguin: (Ubuntu 18.04)__, and I am not providing the same for Windows because, frnakly, coding and development should NOT be done :thumbsdown: in Windows.
 
-## Install Python 3.6
+There are 2 ways to access Python and its libraries:
+* __Approach 1__: Installing Python in admin (`sudo`) level and using `pip` to install libraries
+* __Approach 2__: Installing `Anaconda` (latest version, as of June 2020, has Python 3.7 in-built), activating `conda base` and using `conda` to install libraries
+
+__NOTE__: A good practise while working on multiple projects is to create virtual environments. This can be done in both of the approaches mentioned above. We will write about it later.
+
+As of now, I am covering the Approach 1.
+
+## Approach 1
+
+### Install Python 3.6
 
 In order to install Python 3.6 on your Ubuntu 18.04 system, you first need to update and upgrade your system to pull the latest available version of Python 3. In your terminal, run the following commands:
 
@@ -75,7 +96,7 @@ Once done, you need to install `pip`, which is the official tool that allows you
 sudo apt install -y python3-pip
 ```
 
-## Install Jupyter Notebook
+### Install Jupyter Notebook
 
 Run the following command to install Jupyter Notebook:
 
@@ -126,7 +147,7 @@ Once done, place the following location pointers.
 }
 ```
 
-__BONUS__ : You can install `nbextensions` to get more features in your notebook. You just need to run the following commands to get it done:
+__REQUIRED__: You can install `nbextensions` to get more features in your notebook. You just need to run the following commands to get it done:
 
 ```
 sudo pip3 install jupyter_contrib_nbextensions
@@ -151,5 +172,7 @@ You can see that `Nbextension` is also appearing. Click on that tab and select t
 * `ExecuteTime`
 * `table_beautifier`
 * `spellchecker`
+
+
 
 :tada: Voila, ladies and gentlemen. Now, start coding!
