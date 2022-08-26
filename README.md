@@ -67,11 +67,9 @@ All these installations are performed in __Linux :penguin: (Ubuntu 18.04)__, and
 
 There are 2 ways to access Python and its libraries:
 * __Approach 1__: Installing Python in admin (`sudo`) level and using `pip` to install libraries
-* __Approach 2__: Installing `Anaconda` (latest version, as of June 2020, has Python 3.7 in-built), activating `conda base` and using `conda` to install libraries
+* __Approach 2__: Installing using Poetry
 
-__NOTE__: A good practise while working on multiple projects is to create virtual environments. This can be done in both of the approaches mentioned above. We will write about it later.
-
-As of now, I am covering the Approach 1.
+__NOTE__: A good practise while working on multiple projects is to create virtual environments. This can be done in both of the approaches mentioned above.
 
 ## Approach 1
 
@@ -173,6 +171,24 @@ You can see that `Nbextension` is also appearing. Click on that tab and select t
 * `table_beautifier`
 * `spellchecker`
 
+## Approach 2
 
+First, you need to install __Poetry__ in your system. Follow the instruction from [here](https://python-poetry.org/docs/#installation).
+
+Once you clone this repo, perform the following commands:
+
+```
+cd python_tutorial_notebook
+poetry shell
+poetry install
+```
+
+This will create a virtual environment and install all the relevant packages listed in `pyproject.toml`. If you wish to add additional packages, mention in the toml file with version and you then execute
+
+```
+poetry update
+```
+
+so that the new packages gets reflected in the virtual environment.
 
 :tada: Voila, ladies and gentlemen. Now, start coding!
