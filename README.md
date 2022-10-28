@@ -1,6 +1,6 @@
 # Python Tutorials Notebook
 
-![](Python/Photos/python_tutorials_notebook.jpg)
+![](img/python_tutorials_notebook.jpg)
 
 This repository contains python :snake: notebooks :notebook: for education and data science purposes.
 
@@ -46,9 +46,9 @@ __Part 2__
 
 __Part 1__
 
-* Class
 * Iterator and Iterables
 * Generator
+* Class
 * Decorator
 
 __Part 2__
@@ -161,7 +161,7 @@ jupyter notebook
 
 Now, when the tab in your browser opens, you will notice these 4 tabs (considering everything worked perfectly):
 
-![](Python/Photos/jupyter_tabs.png)
+![](img/jupyter_tabs.png)
 
 You can see that `Nbextension` is also appearing. Click on that tab and select the following _recommended_ extensions:
 
